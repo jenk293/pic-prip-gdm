@@ -1,11 +1,8 @@
-.container-fluid {
-  padding: 0 !important;
-}
-
+.footer,
 .header,
-.footer {
+.navbar {
   height: 150px;
-  background: black;
+  background-color: black !important;
 }
 
 .logo,
@@ -25,15 +22,38 @@ main {
   color: black;
 }
 
-.logo {
-  background-color: orange;
-  height: inherit;
-}
-
-.menu {
-  height: inherit;
-}
 h1 {
   font-size: 120px;
   font-weight: 900;
+}
+
+nav > div > ul > li,
+nav > * {
+  width: 20vw;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.navbar {
+  height: inherit;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  width: 20vw;
+  height: 150px;
+  background-color: orange;
+  z-index: -1;
+}
+
+.navbar {
+  z-index: 0;
+  position: relative;
+}
+
+a {
+  color: white !important;
 }
