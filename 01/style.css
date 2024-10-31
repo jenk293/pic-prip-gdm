@@ -1,8 +1,12 @@
-.footer,
 .header,
 .navbar {
   height: 150px;
   background-color: black !important;
+}
+
+footer {
+  height: 200px;
+  background-color: black;
 }
 
 .logo,
@@ -14,22 +18,35 @@
 }
 
 main {
-  height: calc(100vh - 300px);
+  height: calc(100vh - 350px);
   background-image: url(bg-01.jpg);
   background-repeat: no-repeat;
   background-position: 10% 0;
   background-color: white;
+  background-size: contain;
   color: black;
+  padding: 10% 3% 0 0%;
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 12em;
   font-weight: 900;
+  line-height: 0.9;
+  padding-bottom: 25px;
+  letter-spacing: 0.1em;
 }
 
-nav > div > ul > li,
-nav > * {
+.navbar__header > div > ul > li,
+.navbar__header > * {
   width: 20vw;
+}
+
+.navbar__footer > div > ul > li {
+  width: 40vw;
+}
+
+.footer__soc {
+  width: 20vw !important;
 }
 
 .container-fluid {
@@ -49,11 +66,39 @@ nav > * {
   z-index: -1;
 }
 
-.navbar {
+.navbar,
+.footer {
   z-index: 0;
   position: relative;
 }
 
-a {
-  color: white !important;
+.footer > .navbar::before {
+  height: 200px;
+}
+
+.main__button {
+  width: 220px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 0;
+  border: none;
+}
+
+.main__subtitle {
+  padding-bottom: 25px;
+}
+
+footer::before {
+  height: 200px;
+}
+
+i {
+  font-size: 3em;
+  color: white;
+}
+
+a.nav-link,
+a.nav-link.active,
+.navbar-nav .nav-link.active {
+  color: white;
 }

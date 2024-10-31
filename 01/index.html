@@ -2,14 +2,11 @@
 <html lang="en">
   <head>
     <title>Title</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <!-- Bootstrap CSS v5.2.1 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,34 +19,42 @@
   <body>
     <div class="container-fluid p-0">
       <header class="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary text-center">
-            <div class="navbar-brand" ><a>Navbar</a></div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-              </ul>
-            </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary text-center navbar__header">
+          <div class="navbar-brand"><a>Navbar</a></div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
-      <main class="main">
+      <main class="main content-end">
         <div class="row">
           <div class="col-12 text-end">
-            <h1 class="text-uppercase">Lets<br />travel</h1>
-            <p>
+            <h1 class="text-uppercase">Let's<br />travel</h1>
+            <p class="main__subtitle">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
               perferendis quae repudiandae, perspiciatis optio, recusandae
               excepturi commodi doloremque praesentium eligendi maxime at,
@@ -58,22 +63,28 @@
               mollitia eaque neque nemo similique explicabo id magni iure
               consectetur placeat.
             </p>
-            <button>BUTTON</button>
+            <button class="btn btn-primary main__button">BUTTON</button>
           </div>
         </div>
       </main>
       <footer class="footer">
-        <div class="row text-center">
-          <div class="col-lg-2 py-lg-5">
-            <div class="row">
-              <div class="col-lg-4">1</div>
-              <div class="col-lg-4">2</div>
-              <div class="col-lg-4">3</div>
-            </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary text-center navbar__footer">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item footer__soc">
+                <a class="nav-link" href="#"><i class="fa-brands fa-vk"></i></a>
+                <a class="nav-link" href="#"><i class="fa-brands fa-vk"></i></a>
+                <a class="nav-link" href="#"><i class="fa-brands fa-vk"></i></a>
+              </li>
+              <li class="nav-item text-end footer__nav--caret-left">
+                <a class="nav-link" href="#"><i class="fa-solid fa-caret-left"></i></a>
+              </li>
+              <li class="nav-item text-start footer__nav_--caret-right">
+                <a class="nav-link" href="#"><i class="fa-solid fa-caret-right"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="col-lg-5">2</div>
-          <div class="col-lg-5">3</div>
-        </div>
+        </nav>
       </footer>
       <!-- Bootstrap JavaScript Libraries -->
       <script
@@ -85,6 +96,10 @@
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://kit.fontawesome.com/aac3730127.js"
         crossorigin="anonymous"
       ></script>
     </div>
