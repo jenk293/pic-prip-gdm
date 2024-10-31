@@ -1,0 +1,39 @@
+.container-fluid {
+  padding: 0 !important;
+}
+
+.header,
+.footer {
+  height: 150px;
+  background: black;
+}
+
+.logo,
+.menu__item {
+  padding: 55px 0 0 0;
+}
+.header__row {
+  height: inherit;
+}
+
+main {
+  height: calc(100vh - 300px);
+  background-image: url(bg-01.jpg);
+  background-repeat: no-repeat;
+  background-position: 10% 0;
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  background-color: orange;
+  height: inherit;
+}
+
+.menu {
+  height: inherit;
+}
+h1 {
+  font-size: 120px;
+  font-weight: 900;
+}
