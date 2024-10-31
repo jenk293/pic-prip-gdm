@@ -4,17 +4,9 @@
   background-color: black !important;
 }
 
-footer {
+.footer {
   height: 200px;
   background-color: black;
-}
-
-.logo,
-.menu__item {
-  padding: 55px 0 0 0;
-}
-.header__row {
-  height: inherit;
 }
 
 main {
@@ -41,7 +33,7 @@ h1 {
   width: 20vw;
 }
 
-.navbar__footer > div > ul > li {
+.navbar__footer > ul > li {
   width: 40vw;
 }
 
@@ -86,10 +78,6 @@ h1 {
 
 .main__subtitle {
   padding-bottom: 25px;
-}
-
-footer::before {
-  height: 200px;
 }
 
 i {
