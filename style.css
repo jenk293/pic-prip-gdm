@@ -1,3 +1,10 @@
 .card {
   background-color: #1b1f22;
 }
+
+h1, h2 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
