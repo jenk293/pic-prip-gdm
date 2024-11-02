@@ -26,3 +26,10 @@ body {
 .nav__item {
     padding: 20px;
 }
+
+.decor__star {
+    font-size: 20em;
+    position: absolute;
+    top: 1;
+    bottom: 1;
+}
