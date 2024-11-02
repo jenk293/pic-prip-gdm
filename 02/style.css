@@ -1,10 +1,13 @@
 #dot
 {
-	width: 100px;
-	height: 100px;
+	width: 30px;
+	height: 30px;
 	background-color: #ccc;
 	border-radius: 50px;
-	box-shadow: 120px    0px 0  15px #f00,
-				-60px  104px 0   0px #0f0,
-				-60px -104px 0 -15px #00f;
+	box-shadow:
+				50px 0px 0 0px #0f0,
+				100px 0px 0 0px #00f,
+                0px 50px 0 0px #ccc,
+                50px 50px 0 0px #0f0,
+				100px 50px 0 0px #00f;
 }
