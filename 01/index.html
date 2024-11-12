@@ -13,16 +13,21 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="container-fluid p-0">
       <header class="header">
         <nav
           class="navbar navbar-expand-lg bg-body-tertiary text-center navbar__header"
         >
-          <div class="navbar-brand"><a>Navbar</a></div>
+          <div class="navbar-brand"><a>LogoHere</a></div>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,35 +42,98 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Places</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
       <main class="main content-end">
-        <div class="row">
-          <div class="col-12 text-end">
-            <h1 class="text-uppercase">Let's<br />travel</h1>
-            <p class="main__subtitle">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              perferendis quae repudiandae, perspiciatis optio, recusandae
-              excepturi commodi doloremque praesentium eligendi maxime at,
-              dolorem nam impedit corporis deleniti fugit incidunt inventore
-              pariatur ullam ipsum eum eveniet? Quam incidunt, illum tempora
-              mollitia eaque neque nemo similique explicabo id magni iure
-              consectetur placeat.
-            </p>
-            <button class="btn btn-primary main__button">BUTTON</button>
+        <div id="header__slider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+              <img
+                src="/01/images/slide_01.jpg"
+                class="d-block h-100 slider__img"
+                alt="..."
+              />
+              <div class="container-fluid">
+                <div class="carousel-caption text-end">
+                  <h1>let's<br />travel</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br />
+                    Quisquam, iusto. Nulla possimus repudiandae totam ex eaque
+                    <br />
+                    exercitationem. Aliquid, dolorem odio.
+                  </p>
+                  <p>
+                    <a class="btn btn-lg btn-primary main__button" href="#"
+                      >More info</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item h-100">
+              <img
+                src="/01/images/slide_02.jpg"
+                class="d-block h-100 slider__img"
+                alt="..."
+              />
+              <div class="container-fluid">
+                <div class="carousel-caption text-end">
+                  <h1>let's<br />travel</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br />
+                    Quisquam, iusto. Nulla possimus repudiandae totam ex eaque
+                    <br />
+                    exercitationem. Aliquid, dolorem odio.
+                  </p>
+                  <p>
+                    <a class="btn btn-lg btn-primary main__button" href="#"
+                      >More info</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item h-100">
+              <img
+                src="/01/images/slide_03.jpg"
+                class="d-block h-100 slider__img"
+                alt="..."
+              />
+              <div class="container-fluid">
+                <div class="carousel-caption text-end">
+                  <h1>let's<br />travel</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br />
+                    Quisquam, iusto. Nulla possimus repudiandae totam ex eaque
+                    <br />
+                    exercitationem. Aliquid, dolorem odio.
+                  </p>
+                  <p>
+                    <a class="btn btn-lg btn-primary main__button" href="#"
+                      >More info</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
@@ -77,18 +145,29 @@
             <li
               class="nav-item d-flex justify-content-evenly align-items-center footer__soc"
             >
-              <a class="nav-link" href="#"><i class="fa-brands fa-vk"></i></a
+              <a class="nav-link" href="https://github.com/jenk293/pic-prip-gdm"
+                ><i class="fa-brands fa-github"></i></a
               ><a class="nav-link" href="#"><i class="fa-brands fa-vk"></i></a
-              ><a class="nav-link" href="#"><i class="fa-brands fa-vk"></i></a>
+              ><a class="nav-link" href="#"
+                ><i class="fa-brands fa-square-odnoklassniki"></i
+              ></a>
             </li>
             <li class="nav-item text-end">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-caret-left"></i
+              <a
+                class="nav-link"
+                type="button"
+                data-bs-target="#header__slider"
+                data-bs-slide="prev"
+                ><i class="fa-solid fa-caret-left px-4"></i
               ></a>
             </li>
             <li class="nav-item text-start">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-caret-right"></i
+              <a
+                class="nav-link"
+                type="button"
+                data-bs-target="#header__slider"
+                data-bs-slide="next"
+                ><i class="fa-solid fa-caret-right px-4"></i
               ></a>
             </li>
           </ul>
