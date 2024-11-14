@@ -1,0 +1,49 @@
+body {
+  background-color: #ffffff;
+  color: #fff;
+}
+
+.blocks-group__block--aqua, footer {
+  background-color: #30BCC9;
+}
+
+.blocks-group__block--blue, .section--blue {
+  background-color: #2378FC;
+}
+
+.blocks-group__block--yellow, .section--yellow {
+  background-color: #FFC41E;
+}
+
+.blocks-group__block--red, .section--red {
+  background-color: #F6404F;
+}
+
+.blocks-group__block--white, .section--white {
+    background-color: #ffffff;
+  }
+
+.blocks-group__block {
+    padding: 10px;
+}
+
+.header__left {
+    padding-top: 200px;
+}
+
+.header__right {
+    padding-top: 400px;
+}
+
+section, footer {
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 25px;
+    width: 100%!important;
+}
+
+footer ul {
+    margin-bottom: 25px;
+}
